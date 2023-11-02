@@ -1,0 +1,57 @@
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead tr {
+    background-color: #f2f4f5;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+.product {
+    text-align: left;
+}
+
+th,td {
+    padding: 30px;
+}
+
+th {
+    text-align: left;
+}
+
+.color {
+    color: #2db224;
+}
+
+.red {
+    color: #ee5858;
+}
+
+button {
+    background-color: #fa8232;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border:2px solid white;
+}
+
+.grey {
+    background-color: #adb7bc;
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
+}
