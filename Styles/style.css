@@ -1,57 +1,78 @@
-body {
-    background-color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    line-height: 2;
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+.heading {
+    width: 1320px;
+    height: 64px;
+    padding: 20px 24px;
+    gap: 10px;
 }
 
 table {
     border-collapse: collapse;
 }
 
-thead tr {
+tr th {
+    width: 1320px;
+    height: 38px;
+    padding: 10px 24px;
     background-color: #f2f4f5;
-    border-collapse: collapse;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-}
-
-.product {
     text-align: left;
 }
 
-th,td {
-    padding: 30px;
+tbody {
+    width: 1320px;
+    height: 472px;
+    padding: 24px;
+    gap: 16px;
 }
 
-th {
-    text-align: left;
+td {
+    width: 1272px;
+    height: 72px;
+    gap: 24px;
+    padding: 20px;
 }
 
-.color {
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    background-color: #fa8232;
+    border-radius: 2px;
+    padding: 0 24px;
+    width: 173px;
+    height: 48px;
+    border: none;
+    color: white;
+}
+
+button img {
+    background-color: #fa8232;
+    float: right;
+}
+
+p {
+    margin-right: 120px;
+    text-wrap: nowrap;
+}
+
+.product4 {
+    background-color: #adb7bc;
+}
+
+.product4 img {
+    background-color: #adb7bc;
+}
+
+.green {
     color: #2db224;
 }
 
 .red {
     color: #ee5858;
-}
-
-button {
-    background-color: #fa8232;
-    color: white;
-    padding: 20px;
-    border-radius: 5px;
-    border:2px solid white;
-}
-
-.grey {
-    background-color: #adb7bc;
-    color: white;
-}
-
-h1 {
-    font-size: 2rem;
 }
